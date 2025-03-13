@@ -1,8 +1,7 @@
 # URL Shortener
 
-A scalable, ready-to-deploy URL shortener service built using Go. This project is designed to offer 
-an easy-to-set-up URL shortening service with analytics infrastructure. It leverages Docker, 
-PostgreSQL, ClickHouse, MongoDB, and Redis to ensure a robust and scalable system.
+URL shortener service built using Go, Docker, 
+PostgreSQL, ClickHouse, MongoDB, and Redis.
 
 ## Table of Contents
 
