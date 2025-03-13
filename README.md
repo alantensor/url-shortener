@@ -23,20 +23,6 @@ PostgreSQL, ClickHouse, MongoDB, and Redis to ensure a robust and scalable syste
 - **Scalable Architecture**: Designed to scale horizontally to handle increased load.
 - **Docker Compose Setup**: Easy setup and deployment using Docker Compose.
 
-## Architecture
-
-![diagram](docs/img/architecture.png)
-
-This project follows a monorepo structure containing two main services:
-
-1. **URL-Shortener Service**:
-    - Saves aliases to storage and cache (for the first 24 hours).
-    - Retrieves the full URL based on the alias and redirects to it.
-
-2. **Alias-Gen Service**:
-    - Uses a counter-based approach to generate aliases for full URLs.
-    - Employs PostgreSQL to maintain the counter value.
-
 ## Endpoints
 
 - **Create Alias**:
