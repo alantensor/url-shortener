@@ -1,6 +1,6 @@
 # URL Shortener Service
 
-A **scalable URL shortener** designed to offer efficient URL aliasing and insightful analytics. Built using **Go**, **PostgreSQL**, **ClickHouse**, **MongoDB**, and **Redis**.
+A **URL shortener** designed to offer efficient URL aliasing and insightful analytics. Built using **Go**, **PostgreSQL**, **ClickHouse**, **MongoDB**, and **Redis**.
 
 ## Features
 
